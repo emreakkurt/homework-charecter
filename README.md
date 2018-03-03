@@ -1,2 +1,0 @@
-# homework-charecter
-ödev deposu
