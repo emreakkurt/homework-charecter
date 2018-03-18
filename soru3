@@ -1,0 +1,28 @@
+def ilk_6_ay():
+    global ilk_6_ay
+    a=int(input("yazılım gelirleri giriniz:"))
+    b=int(input("finansman geliri giriniz:"))
+    c=int(input("ürün satış gelirini giriniz:"))
+    d=int(input("çalışan maaşını giriniz:"))
+    e=int(input("kira giderini giriniz:"))
+    g=int(input("donanım maliyetini giriniz:"))
+    ilk_6_ay=(a+b+c)-(d+e+g)
+def son_6_ay():
+    global son_6_ay
+    a=int(input("yazılım gelirlerini giriniz:"))
+    b=int(input("sponsorluk gelirini giriniz:"))
+    c=int(input("e-ticaret gelirini giriniz:"))
+    d=int(input("ürün satış gelirini giriniz:"))
+    e=int(input("çalışan maaşlarını giriniz:"))
+    f=int(input("kira giderini giriniz:"))
+    g=int(input("bakım maliyetini giriniz:"))
+    son_6_ay=(a+b+c+d)-(e+f+g)
+ilk_6_ay()
+son_6_ay()
+isletme_kari=ilk_6_ay+son_6_ay
+if isletme_kari>5000:
+    print("isletme çok kârlı")
+elif isletme_kari>1000:
+    print("isletme kârı normal")
+else:
+    print("İşletme kârı düşük")
