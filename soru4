@@ -1,0 +1,21 @@
+def dbs():
+    global dbs
+    a=35
+    b=30
+    c=15
+    dbs=a+b+c
+    print("dönem başı stok değeriniz",dbs)
+def dss():
+    global dss
+    a=35-15
+    b=30-5
+    c=15-5
+    dss=a+b+c
+    print("dönem sonu stok değeriniz",dss)
+def ort():
+    ort_stok=(dbs+dss)/2
+    print("ortalama stoğunuz:",ort_stok)
+    return ort_stok
+dbs()
+dss()
+ort()
