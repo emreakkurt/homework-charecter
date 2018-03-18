@@ -1,0 +1,15 @@
+def mcs16():
+    global mcs16
+    a=170
+    b=50 
+    mcs16=a/b
+    return mcs17
+def mcs17():
+    global mcs17
+    a=170+50
+    b=50+20
+    mcs17=a/b
+    return mcs17
+mcs16()
+mcs17()
+print(round(mcs16-mcs17,2))
