@@ -1,0 +1,14 @@
+a=int(input("toplam satış miktarını giriniz:"))
+b=int(input("hammadde maliyetini giriniz:"))
+c=int(input("Bakım onarım giderlerini giriniz:"))
+d=int(input("sevkiyat giderleri giriniz:"))
+e=int(input("Satın alınan hizmet giderini giriniz:"))
+def kdh():
+    kdh=a-(b+c+d+e)
+    if(kdh>1000):
+       print("işletme katma değer cirosu yüksek.")
+    elif(kdh>500):
+        print("işletme katma değer cirosu normaldir.")
+    else:
+        print("işletme katma değer cirosu düşüktür.")
+kdh()
