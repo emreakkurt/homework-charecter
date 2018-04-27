@@ -1,2 +1,2 @@
-# homework-charecter
+# homework-character
 ödev deposu
